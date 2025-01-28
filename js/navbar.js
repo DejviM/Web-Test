@@ -1,3 +1,4 @@
+//This is the script for the navbar to hide when scrolling down and show when scrolling up
 let lastScrollTop = 0;
 const navbar = document.getElementById('navbar');
 
@@ -13,4 +14,4 @@ window.addEventListener('scroll', function () {
     }
 
     lastScrollTop = scrollTop;
-});
+    });
