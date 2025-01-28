@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Test Website" content="This is a test website">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="css/layout.css"> 
+        <link rel="stylesheet" href="css/typography.css"> 
+        <link rel="stylesheet" href="css/buttons.css"> 
+        <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css">    
+    </head>
+
+    <body>
+        <header>
+            <nav id="navbar">
+                <div class="nav-container">
+                    <a href="#" class="logo">Brand</a>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            
+        <main>
+                <!--hero section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Add color to your masterpiece</h1>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </section>
+                <!--grid container section -->
+            <section id="top">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/dummy_600x400_ffffff_cccccc.webp" alt="Placeholder Image 1">
+                        <h3>Content 1</h3>
+                        <p>Initial development and planning stage</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/dummy_600x400_ffffff_cccccc.webp" alt="Placeholder Image 2" loading="lazy">
+                        <h3>Content 2</h3>
+                        <p>Design and development stage</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/dummy_600x400_ffffff_cccccc.webp" alt="Placeholder Image 3" loading="lazy">
+                        <h3>Content 3</h3>
+                        <p>Testing and delivery stage</p>
+                    </div>
+                </div>
+            </section>
+                    <!--flex container section -->
+            <section id="bottom">
+                <div class="flex-container">
+                    <div class="flex-item">Content 1</div>
+                    <div class="flex-item">Content 2</div>
+                    <div class="flex-item">Content 3</div>
+                </div>
+            </section>
+                    <!--carousel section -->
+            <section id="carousel">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <img src="images/dummy_600x400_ffffff_cccccc.webp" alt="Slide 1">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="images/dummy_600x400_ffffff_cccccc.webp" alt="Slide 2" loading="lazy">
+                            </li>
+                            <li class="glide__slide">
+                                <img src="images/dummy_600x400_ffffff_cccccc.webp" alt="Slide 3" loading="lazy">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Awesome Bramd. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/navbar.js"></script>
+    </body>
+</html>
